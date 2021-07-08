@@ -1,0 +1,70 @@
+.easylogic-studio-icon {
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #fe6250;
+    color: white;
+    padding: 2px 4px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1;
+    box-sizing: border-box;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.editor-layer {
+    position: fixed;
+    left: 100px;
+    top: 100px;
+    right: 100px;
+    bottom: 100px;
+    display: inline-block;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: 1px solid black;
+    display: none;
+    background-color: black;
+
+}
+
+.editor-layer-top {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    height: 30px;
+    top: 0px;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    font-size:20px;
+    line-height: 1;
+    display: grid;
+    grid-template-columns: 1fr 30px;
+
+    .title {
+        text-align: left;
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .editor-layer-close {
+        width: 30px;
+        height: 30px;
+        background-color: black;
+        color: white;
+        box-sizing: border-box;
+        text-align: center;
+        padding: 8px;
+        font-size:20px;
+        line-height: 1;
+    }
+}
+ 
+.editor-layer-container {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 30px;
+}
